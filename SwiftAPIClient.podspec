@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                        = 'SwiftAPIClient'
-  s.version                     = '1.0.4'
+  s.version                     = '3.0.0'
   s.license                     = 'MIT'
   s.summary                     = 'SwiftAPIClient for Apple Swift Projects'
   s.homepage                    = 'https://github.com/RichAppz'
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target      = '11.0'
   s.watchos.deployment_target   = '3.0'
   s.swift_versions              = '5.0'
-  s.preserve_paths              = 'SwiftAPIClient.xcframework'
-  s.vendored_frameworks         = 'SwiftAPIClient.xcframework'
+  s.preserve_paths              = 'Sources/SwiftAPIClient.xcframework'
+  s.vendored_frameworks         = 'Sources/SwiftAPIClient.xcframework'
 
 end 
