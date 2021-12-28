@@ -11,7 +11,5 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target      = '11.0'
   s.watchos.deployment_target   = '3.0'
   s.swift_versions              = '5.0'
-  s.preserve_paths              = 'Sources/SwiftAPIClient.xcframework'
-  s.vendored_frameworks         = 'Sources/SwiftAPIClient.xcframework'
 
 end 
