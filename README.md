@@ -1,6 +1,6 @@
 # SwiftAPIClient-SDK
 
-SwiftAPIClient is a network layer that contains Alamofire and enables the ability to quickly implement your API calls.
+SwiftAPIClient is a network layer that enables the ability to quickly implement your server API calls.
 
 The framework includes offline capabilites by storing your json data on the device so recall as and when required. Examples below.
 
@@ -33,7 +33,7 @@ Sounds like alot to remember! So there are simple helpers that have been setup t
 
 ### CocoaPods
 
-[CocoaPods](https://cocoapods.org) is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate Alamofire into your Xcode project using CocoaPods, specify it in your `Podfile`:
+[CocoaPods](https://cocoapods.org) is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate SwiftAPIClient into your Xcode project using CocoaPods, specify it in your `Podfile`:
  
 ```ruby
 pod 'SwiftAPIClient'
