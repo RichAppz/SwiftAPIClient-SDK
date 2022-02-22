@@ -39,6 +39,7 @@ public struct FileUpload {
   public let paramName: Swift.String
   public let fullFileName: Swift.String
   public let mimeType: Swift.String
+  public init(data: Foundation.Data, paramName: Swift.String, fullFileName: Swift.String, mimeType: Swift.String)
 }
 @_hasMissingDesignatedInitializers public class SecureService {
   public static func encryptToString(_ data: Foundation.Data) throws -> Swift.String?

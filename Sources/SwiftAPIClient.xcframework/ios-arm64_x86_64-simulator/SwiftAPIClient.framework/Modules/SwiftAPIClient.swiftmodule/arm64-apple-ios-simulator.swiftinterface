@@ -209,6 +209,7 @@ public struct FileUpload {
   public let paramName: Swift.String
   public let fullFileName: Swift.String
   public let mimeType: Swift.String
+  public init(data: Foundation.Data, paramName: Swift.String, fullFileName: Swift.String, mimeType: Swift.String)
 }
 public enum ReachabilityError : Swift.Error {
   case FailedToCreateWithAddress(Darwin.sockaddr_in)
